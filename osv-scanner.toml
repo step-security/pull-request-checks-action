@@ -1,0 +1,7 @@
+[[IgnoredVulns]]
+id = "GHSA-3g3m-2fjr-6pw4"
+reason = "glob is a dev-only transitive dependency of jest (not bundled in dist); no jest release supports the fixed glob version yet"
+
+[[IgnoredVulns]]
+id = "GHSA-g3hv-75wg-m249"
+reason = "minimatch is a dev-only transitive dependency of jest (not bundled in dist); no jest release supports the fixed minimatch version yet"
